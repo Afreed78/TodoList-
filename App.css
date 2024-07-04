@@ -1,0 +1,132 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.head {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.ul-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+
+.list-edit {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-edit:last-child {
+  border-bottom: none;
+}
+
+.list-edit span {
+  font-size: 16px;
+}
+
+.list-edit button {
+  background-color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.list-edit button:hover {
+  background-color: #f0f0f0;
+}
+
+.list-edit button.delete {
+  color: red;
+}
+
+.list-edit button.complete {
+  color: green;
+}
+
+.list-edit input[type="text"] {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ro{
+  display: flex;
+  flex-direction: row;
+}
+
+.todo-box {
+  background-color: #f7f7f7;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.button-group button {
+  margin-right: 10px;
+}
